@@ -69,7 +69,7 @@ These two lines are doing two important things in the main.py file within the CL
 
 ### After reading the assignment sheet and the referenced resources, what are "imaginary" numbers?
 
-TODO: Provide a one-paragraph response that answers this question in your own words.
+The way that I understand imaginary numbers after doing a bit of research is that they are used to measure numbers that "do not exist". In math this is represented as i but in python this is represented as j. However, just because these numbers are said to "not exist" in math doesnt mean that they aren't important. The way that I have chosen to think of them is that they represent space and time that isnt actually there. Like negative space, or negative time. It doesnt really make sense because the world is made up of some kind of matter, and time can't move backwards. However, these numbers are still important because they represent the idea of something that we can comprehend but doesnt necessarily exist, and they can obviously still lead to important "real" answers.
 
 ### After completing this assignment, what is one experience for which you are grateful?
 
