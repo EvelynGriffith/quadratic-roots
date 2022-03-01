@@ -15,18 +15,28 @@ def main(
     a: float = typer.Option(1), b: float = typer.Option(2), c: float = typer.Option(2)
 ):
     """Calculate the roots of a quadratic equation using the quadratic formula."""
-    # TODO: create a console for rich text output
+    # create a console for rich text output
     console = Console()
+    console.print()
     # TODO: display the debugging output for the program's command-line arguments
-    # TODO: display three lines of output following the expected output
+    # display three lines of output following the expected output
     # --> A label describing the output values
+    console.print()
+    console.print(":Star: Calculating the roots of the quadratic equation with:")
     # --> The value of a
+    console.print(f"a = {a}")
     # --> The value of b
+    console.print(f"b = {b}")
     # --> The value of c
+    console.print(f"c = {c}")
     # --> You can display the "star" emoji by using :star:
-    # TODO: call the function that performs the calculation of the roots for the quadratic equation
+    # call the function that performs the calculation of the roots for the quadratic equation
+    quad_root_finder = calculate_quadratic_equation_roots(a)
     # TODO: output the values from running the calculation of the quadratic
     # equation's roots with the calculate_quadratic_equation_roots function
+    console.print(f":star: Finished computing the roots of the equation as:")
+    console.print(f"x_one = {x_one}")
+    console.print(f"x_two = {x_two}")
     # TODO: display a blank line for separation from the first output segment
     # TODO: display three lines of output following the expected output
     # --> A label describing the output values
