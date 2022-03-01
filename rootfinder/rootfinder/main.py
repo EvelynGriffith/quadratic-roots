@@ -34,7 +34,7 @@ def main(
     x_one, x_two = rootfind.calculate_quadratic_equation_roots(a, b, c)
     # output the values from running the calculation of the quadratic
     # equation's roots with the calculate_quadratic_equation_roots function
-    console.print(f":star: Finished computing the roots of the equation as:")
+    console.print(":star: Finished computing the roots of the equation as:")
     # display three lines of output following the expected output
     # --> A label describing the output values
     # --> The value of x_one
