@@ -61,8 +61,11 @@ This peice of code lies in the command line interface function. It is important 
 
 #### A source code statement that creates a new instance of the `Console` class
 
-TODO: Use a fenced code block to provide the requested source code
-TODO: Write at least one paragraph to explain the request source code
+```console = Console()
+    console.print()
+```
+
+These two lines are doing two important things in the main.py file within the CLI function. The first line of code is the instance that is creating a new Console class from the ```from rich.console import Console``` import statement at the top of the file. This then allows us to use the second line of the example in order to print things through the console. This is particularly useful whe using f-strings with several different variables.
 
 ### After reading the assignment sheet and the referenced resources, what are "imaginary" numbers?
 
@@ -70,4 +73,4 @@ TODO: Provide a one-paragraph response that answers this question in your own wo
 
 ### After completing this assignment, what is one experience for which you are grateful?
 
-TODO: Provide a one-paragraph response that answers this question in your own words.
+I am really grateful that during this lab I was able to have a relatively smooth experience. I am thankful that I understand the code well and I am really happy that I was able to get it working well. I think I have had A LOT of experiences where labs were difficult or tedious and this one, although there were defintely challenges to it, it was nice because it made me feel capable of being successful in this feild. I dont feel like that very often so this was a welcome change.
