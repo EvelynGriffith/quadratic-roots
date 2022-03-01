@@ -31,7 +31,7 @@ def main(
     console.print(f"c = {c}")
     # --> You can display the "star" emoji by using :star:
     # call the function that performs the calculation of the roots for the quadratic equation
-    x_one, x_two = rootfind.calculate_quadratic_equation_roots(a,b,c)
+    x_one, x_two = rootfind.calculate_quadratic_equation_roots(a, b, c)
     # output the values from running the calculation of the quadratic
     # equation's roots with the calculate_quadratic_equation_roots function
     console.print(f":star: Finished computing the roots of the equation as:")
