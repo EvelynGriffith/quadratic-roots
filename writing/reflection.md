@@ -1,10 +1,5 @@
 # Quadratic Roots
 
-TODO: Please delete each of the TODO markers entirely and ensure that all of
-the text including in this document is written and formatted in a professional
-fashion. Do not leave the remainder of a TODO prompt in this document unless
-it supports your response to a specific question.
-
 ## Evelyn Griffith
 
 ## Program Output
