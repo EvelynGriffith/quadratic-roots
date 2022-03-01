@@ -44,15 +44,15 @@ tests\test_rootfind.py ...
 
 #### A source code statement that makes the `rootfind` module available to `main`
 
-```from rootfinder import rootfind```
+`from rootfinder import rootfind`
 
-This statement lies in the main.py file as an import statement. This is a very interesting import because it lives in the main module(or file) and it reaches into the directory of the rootfind.py file and it links together the two files so that functions can be accessed between the two of them. This is really important for the main.py because when the main.py runs the CLI function it needs the ```calculate_quadratic_equation_roots``` function in order to actually calculate any of the information we need.
+This statement lies in the main.py file as an import statement. This is a very interesting import because it lives in the main module(or file) and it reaches into the directory of the rootfind.py file and it links together the two files so that functions can be accessed between the two of them. This is really important for the main.py because when the main.py runs the CLI function it needs the calculate_quadratic_equation_roots function in order to actually calculate any of the information we need.
 
 #### A function signature that defines `rootfind`'s command-line arguments
 
-```x_one, x_two = rootfind.calculate_quadratic_equation_roots(a,b,c)```
+`x_one, x_two = rootfind.calculate_quadratic_equation_roots(a,b,c)`
 
-This peice of code lies in the command line interface function. It is important because it is the line that actually calls on the rootfind.py file and then uses its function called ```calculate_quadratic_equation_roots```. However, this peice of code also calls directly on the functions inputs and outputs. You can see that it is using a,b,and c which are defined as float values, but it is also stating that we will have a Tuple as a output with the values x_one, and x_two making up its data points.
+This peice of code lies in the command line interface function. It is important because it is the line that actually calls on the rootfind.py file and then uses its function called calculate_quadratic_equation_roots. However, this peice of code also calls directly on the functions inputs and outputs. You can see that it is using a,b,and c which are defined as float values, but it is also stating that we will have a Tuple as a output with the values x_one, and x_two making up its data points.
 
 #### A source code statement that creates a new instance of the `Console` class
 
@@ -60,7 +60,7 @@ This peice of code lies in the command line interface function. It is important 
     console.print()
 ```
 
-These two lines are doing two important things in the main.py file within the CLI function. The first line of code is the instance that is creating a new Console class from the ```from rich.console import Console``` import statement at the top of the file. This then allows us to use the second line of the example in order to print things through the console. This is particularly useful whe using f-strings with several different variables.
+These two lines are doing two important things in the main.py file within the CLI function. The first line of code is the instance that is creating a new Console class from the from rich.console import Console import statement at the top of the file. This then allows us to use the second line of the example in order to print things through the console. This is particularly useful whe using f-strings with several different variables.
 
 ### After reading the assignment sheet and the referenced resources, what are "imaginary" numbers?
 
