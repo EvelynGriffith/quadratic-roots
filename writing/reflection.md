@@ -55,8 +55,9 @@ This statement lies in the main.py file as an import statement. This is a very i
 
 #### A function signature that defines `rootfind`'s command-line arguments
 
-TODO: Use a fenced code block to provide the requested source code
-TODO: Write at least one paragraph to explain the request source code
+```x_one, x_two = rootfind.calculate_quadratic_equation_roots(a,b,c)```
+
+This peice of code lies in the command line interface function. It is important because it is the line that actually calls on the rootfind.py file and then uses its function called ```calculate_quadratic_equation_roots```. However, this peice of code also calls directly on the functions inputs and outputs. You can see that it is using a,b,and c which are defined as float values, but it is also stating that we will have a Tuple as a output with the values x_one, and x_two making up its data points.
 
 #### A source code statement that creates a new instance of the `Console` class
 
