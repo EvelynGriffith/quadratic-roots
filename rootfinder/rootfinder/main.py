@@ -31,14 +31,16 @@ def main(
     console.print(f"c = {c}")
     # --> You can display the "star" emoji by using :star:
     # call the function that performs the calculation of the roots for the quadratic equation
-    quad_root_finder = calculate_quadratic_equation_roots(a)
-    # TODO: output the values from running the calculation of the quadratic
+    x_one, x_two = rootfind.calculate_quadratic_equation_roots(a,b,c)
+    # output the values from running the calculation of the quadratic
     # equation's roots with the calculate_quadratic_equation_roots function
     console.print(f":star: Finished computing the roots of the equation as:")
-    console.print(f"x_one = {x_one}")
-    console.print(f"x_two = {x_two}")
-    # TODO: display a blank line for separation from the first output segment
-    # TODO: display three lines of output following the expected output
+    # display three lines of output following the expected output
     # --> A label describing the output values
     # --> The value of x_one
+    console.print(f"x_one = {x_one}")
+    # display a blank line for separation from the first output segment
+    console.print()
     # --> The value of x_two
+    console.print(f"x_two = {x_two}")
+    console.print()
