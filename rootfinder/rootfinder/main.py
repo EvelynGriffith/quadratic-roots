@@ -18,7 +18,7 @@ def main(
     # create a console for rich text output
     console = Console()
     console.print()
-    # TODO: display the debugging output for the program's command-line arguments
+    # display the debugging output for the program's command-line arguments
     # display three lines of output following the expected output
     # --> A label describing the output values
     console.print()
